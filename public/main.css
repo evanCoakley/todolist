@@ -1,0 +1,100 @@
+body {
+    background: black;
+    font-family: "Times New Roman";
+}
+
+.header {
+    width: 100%;
+    background-color: lightskyblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    margin: 40px 0 0 0;
+    color: black;
+    font-weight: 100;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: left;
+}
+
+#todoList {
+    background: lightskyblue;
+    box-shadow: 0 0 7px rgba(25, 25, 25, 0.2);
+    margin: 50px auto;
+    position: relative;
+    padding: 100px 100px 100px 140px;
+    overflow: hidden;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.input {
+    font-family: times;
+    font-size: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+input.add-btn {
+    border: solid black 1px;
+    background-color: #fff;
+    padding-bottom: 5px;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman';
+    width: 10rem;
+    margin: 10px 10px 0px 45px;
+}
+
+.incomplete {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.complete {
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.completed-list {
+    text-decoration: line-through;
+}
+
+button {
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.done-btn {
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    float: right;
+}
